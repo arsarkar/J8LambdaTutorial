@@ -13,7 +13,7 @@ public class StreamDemo {
 
 		//generic example of stream operation on a collection
 		Stream.of("a1", "a2", "b1", "c2", "c1")
-			  .filter(s-> s.startsWith("c"))
+			  .filter(s -> s.startsWith("c"))
 			  .map(String::toUpperCase)
 			  .sorted()
 			  .forEach(s -> {
